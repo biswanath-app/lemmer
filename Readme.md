@@ -14,7 +14,7 @@ You can learn more about Lemmatizing words [on WikiPedia](http://en.wikipedia.or
       console.log(word); // ['fight']
     });
 
-    Lemmer.lemmatize(['went','and','bought], function(err, words){
+    Lemmer.lemmatize(['went','and','bought'], function(err, words){
       console.log(words); // ['go','and','buy']
     });
 
@@ -25,7 +25,7 @@ You can learn more about Lemmatizing words [on WikiPedia](http://en.wikipedia.or
       console.log(word); // ['fight']
     });
 
-    Lemmer.lemmatize(['went','and','bought]).then(words){
+    Lemmer.lemmatize(['went','and','bought']).then(words){
       console.log(words); // ['go','and','buy']
     });
 
